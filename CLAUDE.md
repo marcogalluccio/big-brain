@@ -33,6 +33,16 @@ These files are auto-loaded by Claude Code (no action needed):
 - This file (CLAUDE.md)
 - Memory index (MEMORY.md in ~/.claude/projects/[your-workspace]/memory/)
 
+### First Run Detection
+
+On every new conversation, check if the workspace has been configured:
+- If `Person - Context.md` still contains `[Your full name]` or similar placeholders,
+  this is a first-time user. Read `WELCOME.md` and guide them through setup step by step.
+  Do not proceed with normal operations until the core files are filled in.
+- If the workspace looks configured, proceed normally.
+
+### Normal Boot
+
 On every new conversation, before doing anything else:
 1. Read today's daily log: `daily-log/YYYY-MM-DD.md` (if it exists)
 2. Read the subfolder CLAUDE.md for whatever area the task touches
