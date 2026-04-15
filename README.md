@@ -1,8 +1,8 @@
-# Big Brain OS
+# Big Brain
 
 An open-source operational workspace template powered by [Claude Code](https://claude.ai/code).
 
-Big Brain OS gives you a structured system where AI agents understand your full context — who you are, what your organization does, and how your work is organized — before they do anything.
+Big Brain gives you a structured system where AI agents understand your full context — who you are, what your organization does, and how your work is organized — before they do anything.
 
 ---
 
@@ -56,7 +56,7 @@ my-domain/
 ## File Structure
 
 ```
-big-brain-os/
+big-brain/
 ├── README.md                    ← this file
 ├── SETUP.md                     ← optional guided setup walkthrough
 ├── CLAUDE.md                    ← root agent instructions (template)

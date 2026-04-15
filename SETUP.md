@@ -1,6 +1,6 @@
 # Setup Guide (Optional)
 
-This guide walks you through customizing Big Brain OS for your context.
+This guide walks you through customizing Big Brain for your context.
 
 You don't need to follow it — you can explore the files directly and adapt them however you want. This is here if you prefer a step-by-step walkthrough.
 
@@ -9,7 +9,7 @@ You don't need to follow it — you can explore the files directly and adapt the
 ## Step 1 — Fork or clone
 
 ```bash
-git clone https://github.com/marcogalluccio/big-brain-os.git my-workspace
+git clone https://github.com/marcogalluccio/big-brain.git my-workspace
 cd my-workspace
 ```
 

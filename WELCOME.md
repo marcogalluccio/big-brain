@@ -1,4 +1,4 @@
-# Welcome to Big Brain OS
+# Welcome to Big Brain
 
 You just cloned this repo. Good. Here is what you have and what to do next.
 
@@ -6,7 +6,7 @@ You just cloned this repo. Good. Here is what you have and what to do next.
 
 ## What is this?
 
-Big Brain OS is a workspace template for people who want AI agents to actually understand their work — not just respond to one-off questions, but operate with full context about who you are, what your organization does, and what you are working on right now.
+Big Brain is a workspace template for people who want AI agents to actually understand their work — not just respond to one-off questions, but operate with full context about who you are, what your organization does, and what you are working on right now.
 
 The idea: instead of explaining yourself every time you open a chat, you build a structured workspace that the agent reads automatically. Every conversation starts with context already loaded.
 
@@ -77,8 +77,8 @@ Then open the `CLAUDE.md` and `Context.md` inside and fill in the basics for tha
 Copy the memory templates to where Claude Code will auto-load them:
 
 ```bash
-# Adjust the path: replace "Desktop/big-brain-os" with your actual workspace path
-MEMORY_PATH="$HOME/.claude/projects/-Users-$(whoami)-Desktop-big-brain-os/memory"
+# Adjust the path: replace "Desktop/big-brain" with your actual workspace path
+MEMORY_PATH="$HOME/.claude/projects/-Users-$(whoami)-Desktop-big-brain/memory"
 mkdir -p "$MEMORY_PATH"
 cp memory/*.md "$MEMORY_PATH/"
 ```
