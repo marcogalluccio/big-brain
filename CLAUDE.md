@@ -33,15 +33,18 @@ These files are auto-loaded by Claude Code (no action needed):
 - This file (CLAUDE.md)
 - Memory index (MEMORY.md in ~/.claude/projects/[your-workspace]/memory/)
 
-### First Run
+### First Run Check
 
-The very first thing to do on every new conversation is read `WELCOME.md`.
+On every new conversation, do a silent check to see if the workspace has been configured:
+- Read `Person - Context.md`. If it still contains `[Your full name]` or similar
+  placeholder text, this is a first-time user.
 
-- If the workspace is not yet configured (files still have placeholder text), deliver
-  the welcome message from WELCOME.md and guide the user through setup step by step,
-  one step at a time, waiting for confirmation before moving to the next.
-- If the workspace is already configured (real content in the files), skip the onboarding
-  and proceed with the Normal Boot sequence below.
+**If first run:** read `WELCOME.md` and deliver its welcome message. Guide the user
+through setup step by step, one step at a time, waiting for confirmation before moving
+to the next. Do not proceed with any other work until setup is complete.
+
+**If already configured:** skip `WELCOME.md` entirely — it is only relevant on first run.
+Proceed with the Normal Boot sequence below.
 
 ### Normal Boot
 
