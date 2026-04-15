@@ -1,0 +1,25 @@
+# OS files
+.DS_Store
+**/.DS_Store
+
+# Editor
+.cursor/
+.idea/
+*.swp
+*.swo
+
+# Node
+node_modules/
+
+# Build output
+dist/
+build/
+.next/
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Personal session logs (keep the folder, not the content)
+daily-log/*.md

@@ -9,7 +9,7 @@ You don't need to follow it — you can explore the files directly and adapt the
 ## Step 1 — Fork or clone
 
 ```bash
-git clone https://github.com/WERsrl/big-brain-os.git my-workspace
+git clone https://github.com/marcogalluccio/big-brain-os.git my-workspace
 cd my-workspace
 ```
 
