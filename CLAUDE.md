@@ -33,46 +33,15 @@ These files are auto-loaded by Claude Code (no action needed):
 - This file (CLAUDE.md)
 - Memory index (MEMORY.md in ~/.claude/projects/[your-workspace]/memory/)
 
-### First Run Detection
+### First Run
 
-On every new conversation, check if the workspace has been configured:
-- Read `Person - Context.md`. If it still contains `[Your full name]` or similar placeholders,
-  this is a first-time user. Follow the First Run Script below.
-- If the workspace looks configured, proceed normally with the Normal Boot sequence.
+The very first thing to do on every new conversation is read `WELCOME.md`.
 
-### First Run Script
-
-If this is a first-time user, deliver this message before doing anything else:
-
----
-
-Welcome to **Big Brain OS**.
-
-Before we configure anything, it is important that you understand what this system is
-and how it works — because everything inside this repo needs to be customized for YOU.
-Nothing here is ready to use as-is. It is a template, not a finished product.
-
-Here is the idea: this workspace gives Claude Code permanent context about who you are
-and what you are working on. Instead of explaining yourself every conversation, you
-build the context once — and the agent reads it automatically every time.
-
-Three things make it work:
-- **CLAUDE.md files** — one in every folder, telling the agent what that area is about
-- **Memory system** — your active projects and decisions, tracked across sessions
-- **Domain subfolders** — one folder per area of your work, each with its own context
-
-Everything you see in this repo is a placeholder. Your job is to replace it with
-information about your actual life and work.
-
-Start by reading `WELCOME.md` — it explains the full picture in plain language and
-walks you through the 5 setup steps. When you are ready to start, come back here
-and say "let's start" — I will guide you through each step one at a time.
-
----
-
-After delivering the message above, wait for the user to respond. Do not jump ahead.
-When they say they are ready, guide them through WELCOME.md step by step,
-one step at a time, waiting for confirmation before moving to the next.
+- If the workspace is not yet configured (files still have placeholder text), deliver
+  the welcome message from WELCOME.md and guide the user through setup step by step,
+  one step at a time, waiting for confirmation before moving to the next.
+- If the workspace is already configured (real content in the files), skip the onboarding
+  and proceed with the Normal Boot sequence below.
 
 ### Normal Boot
 
