@@ -1,5 +1,7 @@
 # Big Brain
 
+> **⚠️ This template has evolved into [Big Brain OS](https://github.com/marcogalluccio/big-brain-os)** — a personal operating system for your work, with two-level memory, self-improving skills, and Superpowers-first onboarding. This repository is archived and kept for reference; all new development happens there.
+
 An open-source operational workspace template powered by [Claude Code](https://claude.ai/code).
 
 Big Brain gives you a structured system where AI agents understand your full context — who you are, what your organization does, and how your work is organized — before they do anything.
